@@ -3,16 +3,13 @@
 #include <iostream>
 #include <random>
 
-#include <docopt/docopt.h>
+#include <docopt.h>
 #include <ftxui/component/captured_mouse.hpp>// for ftxui
 #include <ftxui/component/component.hpp>// for Slider
 #include <ftxui/component/screen_interactive.hpp>// for ScreenInteractive
 #include <spdlog/spdlog.h>
 
-// This file will be generated automatically when you run the CMake
-// configuration step. It creates a namespace called `gamejammeson`. You can modify
-// the source template at `configured_files/config.hpp.in`.
-#include <internal_use_only/config.hpp>
+#include <mygame-config.hpp>
 
 template<std::size_t Width, std::size_t Height> struct GameBoard
 {
